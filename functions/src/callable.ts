@@ -1,7 +1,7 @@
 import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin';
 
-import * as Twilio from 'twilio';
+import {Twilio} from 'twilio';
 
 const credentials = functions.config().twilio;
 
