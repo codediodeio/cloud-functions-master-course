@@ -1,8 +1,8 @@
 import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin';
 
-import * as Storage from '@google-cloud/storage';
-const gcs = Storage();
+import {Storage} from '@google-cloud/storage';
+const gcs = new Storage();
 
 import * as fs from 'fs-extra';
 
